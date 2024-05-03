@@ -1,0 +1,107 @@
+.profile{
+    height: 80vh;
+    background: #FFF;
+    padding-inline: 2rem;
+    display: flex;
+    width: 100%;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto ;
+}
+
+.side{
+    width: 30%;
+    display: flex;
+    background: #FAFAFA;
+    padding-block: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+
+.side h3{
+    width: 80%;
+}
+
+.side p{
+    width: 80%;
+    margin: 1rem 0;
+    color: #666;
+    
+}
+.side button{
+    width: 80%;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border: none;
+    background: #FFF;
+    
+    border-radius: 8px;
+    
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.activeButton{
+    background: #1ABA1A !important;
+    color: #FFF !important;
+}
+
+.main{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-block: 2rem;
+}
+.account{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+    padding-block: 2rem;
+}
+
+.account h3{
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+
+.account  input{
+    background: #FFF;
+    border-radius: 6px;
+    border: 1px solid #CCC;
+    padding: 13px 12px;
+    width: 100%;
+    
+    
+}
+
+.account label{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.account button{
+    background: #1ABA1A;
+    color: #FFF;
+    border: none;
+    border-radius: 6px;
+    padding: 13px 12px;
+    width: 100%;
+    margin-top: 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}

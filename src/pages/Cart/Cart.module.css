@@ -1,0 +1,31 @@
+.cart{
+    min-height: 70vh;
+    background-color: white;
+}
+
+.cartitems{
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cartitems>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #1ABA1A;
+    width: 100%;
+    min-height: 200px;
+    height: fit-content;
+    transition: all 0.3s;
+}
+
+.cartitems img{
+    width: 150px;
+    object-fit: cover;
+}
